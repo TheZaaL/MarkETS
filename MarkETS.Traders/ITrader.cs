@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MarkETS
+namespace MarkETS.Traders
 {
-    public class Class1
+    public interface ITrader
     {
+        Task ProcessTurn();
+        Task Init();
     }
 }
