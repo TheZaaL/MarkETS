@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkETS.Views", "MarkETS.Vi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkETS.CalmTrader", "MarkETS.CalmTrader\MarkETS.CalmTrader.csproj", "{84D113DA-C76F-427E-957C-23865A48C603}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkETS.Models", "MarkETS.Models\MarkETS.Models.csproj", "{2A35274A-95F3-4E85-BBB0-20C5FA02A656}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkETS.SDK", "MarkETS.SDK\MarkETS.SDK.csproj", "{4221E4AE-627F-451C-BB55-1553AE1CF343}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{84D113DA-C76F-427E-957C-23865A48C603}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84D113DA-C76F-427E-957C-23865A48C603}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84D113DA-C76F-427E-957C-23865A48C603}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A35274A-95F3-4E85-BBB0-20C5FA02A656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A35274A-95F3-4E85-BBB0-20C5FA02A656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A35274A-95F3-4E85-BBB0-20C5FA02A656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A35274A-95F3-4E85-BBB0-20C5FA02A656}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4221E4AE-627F-451C-BB55-1553AE1CF343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4221E4AE-627F-451C-BB55-1553AE1CF343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4221E4AE-627F-451C-BB55-1553AE1CF343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4221E4AE-627F-451C-BB55-1553AE1CF343}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
