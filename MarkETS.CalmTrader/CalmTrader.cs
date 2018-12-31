@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MarkETS.Traders;
 
+
 namespace MarkETS.CalmTrader
 {
     [Export(typeof(ITrader))]
