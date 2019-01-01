@@ -51,6 +51,7 @@
     <Compile Include="Companies\EconomicSector.cs" />
     <Compile Include="MarkETSContext.cs" />
     <Compile Include="Markets\Portfolio.cs" />
+    <Compile Include="Markets\PricePoint.cs" />
     <Compile Include="Markets\Stock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
