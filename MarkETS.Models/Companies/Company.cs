@@ -16,6 +16,14 @@ namespace MarkETS.Models.Companies
         /// Determines and influences price of stocks
         /// </summary>
         public float EstimatedValue { get; set; }
+        // TODO Make council take in account when deciding price point of stock
+
+        /// <summary>
+        /// Total stock count currently on the market. Influences price of stocks
+        /// </summary>
+        public int StockCount { get; set; }
+        // TODO Make council use stock count
+        // TODO Enforce maximum stock count 
 
         /// <summary>
         /// Employee count, the more there is the higher the chances
@@ -50,5 +58,7 @@ namespace MarkETS.Models.Companies
         /// List of all existing stocks.
         /// </summary>
         public virtual ICollection<Stock> Stocks { get; set; }
+
+        public virtual ICollection<SellingOffer> SellingOffers { get; set; }
     }
 }

@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 using System.ComponentModel.Composition.Hosting;
 using System.ComponentModel.Composition;
 using System.IO;
+using MarkETS.Models.Traders;
 
-namespace MarkETS.Traders
+namespace MarkETS.AssemblyResolvers
 {
-    class TraderAssembilesResolver
+    internal class TraderAssembilesResolver
     {
         private CompositionContainer _container;
         private AggregateCatalog _aggregate;

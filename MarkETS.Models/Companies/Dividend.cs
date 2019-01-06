@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace MarkETS.Models.Companies
 {
-    public class EconomicSector
+    public class Dividend
     {
         public int Id { get; set; }
-        public string Name { get; set; }
 
-        public int Stability { get; set; }
+        public float NetIncome { get; set; }
 
-        public virtual ICollection<Company> Companies { get; set; }
+        public float DividendPercentage { get; set; }
     }
 }

@@ -15,6 +15,12 @@ namespace MarkETS.Models.Markets
         /// </summary>
         public string HashedPassword { get; set; }
 
+        public float DisponibleCash { get; set; }
+        // TODO Implement dividends
+
         public virtual ICollection<Stock> Stocks { get; set; }
+
+        public virtual ICollection<SellingOffer> SellingOffers { get; set; }
+        public virtual ICollection<Transaction> Transactions { get; set; }
     }
 }

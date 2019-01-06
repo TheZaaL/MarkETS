@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MarkETS.Traders
+namespace MarkETS.Models.Traders
 {
     public interface ITrader
     {
