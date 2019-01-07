@@ -11,9 +11,11 @@ namespace MarkETS.Events.Launchers
     /// Greek god of wealth:
     /// Launches money events (Net gains, dividends)
     /// </summary>
-    internal class Plutus : IEventLauncher
+    internal class Plutus : EventLauncher
     {
-
-
+        protected override void DoWork()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

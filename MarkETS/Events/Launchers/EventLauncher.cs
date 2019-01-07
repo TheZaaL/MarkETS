@@ -12,7 +12,7 @@ namespace MarkETS.Events.Launchers
         private Task _task;
         protected CancellationToken CancelToken { get; private set; }
 
-        public void LaunchTask(CancellationToken cancelToken)
+        public Task LaunchAsync(CancellationToken cancelToken)
         {
             if (_task?.Status != TaskStatus.Canceled ||
                 _task?.Status != TaskStatus.Faulted ||
@@ -23,6 +23,8 @@ namespace MarkETS.Events.Launchers
 
             CancelToken = cancelToken;
             _task = Task.Factory.StartNew(DoWork, CancelToken);
+
+            return _task;
         }
 
         abstract protected void DoWork();
