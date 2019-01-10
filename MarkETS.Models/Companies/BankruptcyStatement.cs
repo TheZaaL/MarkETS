@@ -6,15 +6,11 @@ using System.Threading.Tasks;
 
 namespace MarkETS.Models.Companies
 {
-    public class Dividend
+    public class BankruptcyStatement
     {
         public int Id { get; set; }
 
-        public float NetIncome { get; set; }
-
-        public float DividendPercentage { get; set; }
-
-        public DateTime Date { get; set; }
+        public float LiquidatedAssetWorth { get; set; }
 
         public virtual Company Company { get; set; }
     }

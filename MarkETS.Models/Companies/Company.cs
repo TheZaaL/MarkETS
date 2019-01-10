@@ -13,6 +13,11 @@ namespace MarkETS.Models.Companies
         public string Name { get; set; }
 
         /// <summary>
+        /// Set to false when a bankruptcy happened
+        /// </summary>
+        public bool IsActive { get; set; }
+
+        /// <summary>
         /// Determines and influences price of stocks
         /// </summary>
         public float EstimatedValue { get; set; }
@@ -36,7 +41,7 @@ namespace MarkETS.Models.Companies
         /// Employees quality rating, from 0 to 100. Slightly influences
         /// the outcome of events (positively or negatively)
         /// </summary>
-        public int EmployeesRating { get; set; }
+        public int EmployeeRating { get; set; }
         // TODO Implement employee rating
 
         /// <summary>

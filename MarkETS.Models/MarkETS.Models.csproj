@@ -47,12 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Companies\BankruptcyStatement.cs" />
     <Compile Include="Companies\Company.cs" />
     <Compile Include="Companies\Dividend.cs" />
     <Compile Include="Companies\EconomicSector.cs" />
     <Compile Include="MarkETSContext.cs" />
     <Compile Include="Markets\Portfolio.cs" />
-    <Compile Include="Markets\PricePoint.cs" />
+    <Compile Include="Markets\StockPriceEstimate.cs" />
     <Compile Include="Markets\SellingOffer.cs" />
     <Compile Include="Markets\Stock.cs" />
     <Compile Include="Markets\Transaction.cs" />
