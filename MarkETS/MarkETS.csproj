@@ -42,7 +42,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Council.cs" />
-    <Compile Include="Events\Launchers\EventLauncher.cs" />
     <Compile Include="Events\Launchers\IEventLauncher.cs" />
     <Compile Include="Events\Launchers\Loki.cs" />
     <Compile Include="Events\Launchers\Plutus.cs" />

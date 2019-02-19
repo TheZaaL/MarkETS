@@ -11,9 +11,9 @@ namespace MarkETS.Events.Launchers
     /// Hindu god of creation and destruction:
     /// Launches events for creation of new companies and bankruptcy
     /// </summary>
-    class Shiva : EventLauncher
+    internal class Shiva
     {
-        protected override void DoWork()
+        protected void DoWork()
         {
             throw new NotImplementedException();
         }

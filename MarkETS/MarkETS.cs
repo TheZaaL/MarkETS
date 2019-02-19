@@ -13,8 +13,8 @@ namespace MarkETS
     {
         private TraderAssembilesResolver _traderResolver;
 
-        [ImportMany(typeof(ITrader))]
-        private IEnumerable<ITrader> traders;
+        [ImportMany(typeof(ITrader), RequiredCreationPolicy = CreationPolicy.Shared)]
+        private IEnumerable<ITrader> _traders;
 
         public void Init()
         {

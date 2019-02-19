@@ -11,9 +11,9 @@ namespace MarkETS.Events.Launchers
     /// Norse god of mischiefs:
     /// Launches events that influences companies worth (contracts, hires/layoffs)
     /// </summary>
-    internal class Loki : EventLauncher
+    internal class Loki
     {
-        protected override void DoWork()
+        protected void DoWork()
         {
             throw new NotImplementedException();
         }
