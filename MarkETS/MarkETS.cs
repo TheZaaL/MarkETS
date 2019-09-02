@@ -11,16 +11,16 @@ namespace MarkETS
 {
     public class MarkETS
     {
-        private TraderAssembilesResolver _traderResolver;
+        private TraderAssemblyResolver _traderResolver;
 
         [ImportMany(typeof(ITrader), RequiredCreationPolicy = CreationPolicy.Shared)]
         private IEnumerable<ITrader> _traders;
 
         public void Init()
         {
-            _traderResolver = new TraderAssembilesResolver();
+            _traderResolver = new TraderAssemblyResolver();
 
-            _traderResolver.loadAssemblies(this);
+            _traderResolver.LoadAssemblies(this);
         }
     }
 }

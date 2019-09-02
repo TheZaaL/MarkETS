@@ -11,18 +11,18 @@ using MarkETS.Models.Traders;
 
 namespace MarkETS.AssemblyResolvers
 {
-    internal class TraderAssembilesResolver
+    internal class TraderAssemblyResolver
     {
         private CompositionContainer _container;
         private AggregateCatalog _aggregate;
 
-        public TraderAssembilesResolver()
+        public TraderAssemblyResolver()
         {
             _aggregate = new AggregateCatalog();
             _container = new CompositionContainer(_aggregate);
         }
 
-        public void loadAssemblies(params object[] targets)
+        public void LoadAssemblies(params object[] targets)
         {
             foreach (var location in GetAssembliesLocation())
             {

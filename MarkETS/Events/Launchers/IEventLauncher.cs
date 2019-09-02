@@ -11,5 +11,6 @@ namespace MarkETS.Events.Launchers
     public interface IEventLauncher
     {
         string GetName();
+
     }
 }
